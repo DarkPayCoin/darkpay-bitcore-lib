@@ -12,8 +12,8 @@ bitcore.versionGuard = function(version) {
     throw new Error(message);
   }
 };
-bitcore.versionGuard(global._bitcoreDarkpay);
-global._bitcoreDarkpay = bitcore.version;
+bitcore.versionGuard(global._bitcoreDarkPay);
+global._bitcoreDarkPay = bitcore.version;
 
 // crypto
 bitcore.crypto = {};
